@@ -1,0 +1,40 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Lantern glow effect -->
+    <filter id="lanternGlow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 0 1 0 0 0 0 0.8 0 0 0" result="colored"/>
+      <feComposite in="colored" in2="SourceGraphic" operator="over" result="glow"/>
+    </filter>
+    
+    <!-- Paper texture -->
+    <filter id="paperTexture">
+      <feTurbulence type="fractalNoise" baseFrequency="0.1" numOctaves="2" result="turbulence"/>
+      <feDiffuseLighting in="turbulence" surfaceScale="2" result="lit"/>
+      <feComposite in="lit" in2="SourceGraphic" operator="multiply" result="textured"/>
+    </filter>
+  </defs>
+  
+  <!-- Lantern body -->
+  <g filter="url(#lanternGlow)">
+    <!-- Top cap -->
+    <ellipse cx="100" cy="40" rx="35" ry="8" fill="#F2C94C" opacity="0.9"/>
+    
+    <!-- Body -->
+    <rect x="65" y="40" width="70" height="80" rx="5" fill="#F2C94C" opacity="0.8"/>
+    
+    <!-- Bottom cap -->
+    <ellipse cx="100" cy="120" rx="30" ry="6" fill="#F2C94C" opacity="0.9"/>
+    
+    <!-- Decorative details -->
+    <rect x="85" y="60" width="30" height="40" rx="2" fill="none" stroke="#D87D4A" stroke-width="1" opacity="0.6"/>
+    <circle cx="100" cy="80" r="8" fill="none" stroke="#D87D4A" stroke-width="1" opacity="0.6"/>
+    
+    <!-- Hanging string -->
+    <path d="M100 40 Q100 20 105 10" stroke="#D87D4A" stroke-width="2" fill="none" opacity="0.7"/>
+    <circle cx="105" cy="10" r="3" fill="#D87D4A" opacity="0.8"/>
+  </g>
+  
+  <!-- Paper texture overlay -->
+  <rect width="200" height="200" fill="#F5F5F5" filter="url(#paperTexture)" opacity="0.3"/>
+</svg>

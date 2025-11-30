@@ -1,0 +1,60 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Ink brush stroke pattern -->
+    <pattern id="brushPattern" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="#F5F5F5"/>
+      <circle cx="20" cy="20" r="1" fill="#1A1A1A" opacity="0.1"/>
+    </pattern>
+    
+    <!-- Ink texture filter -->
+    <filter id="inkTexture">
+      <feTurbulence type="turbulence" baseFrequency="0.02" numOctaves="1" result="turbulence"/>
+      <feColorMatrix in="turbulence" type="saturate" values="0" result="desaturated"/>
+      <feComponentTransfer in="desaturated" result="adjusted">
+        <feFuncA type="discrete" tableValues="0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1"/>
+        <feFuncB type="discrete" tableValues="0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1"/>
+      </feComponentTransfer>
+      <feBlend in="adjusted" in2="SourceGraphic" mode="multiply" result="textured"/>
+    </filter>
+    
+    <!-- Watercolor bleed effect -->
+    <filter id="watercolorBleed">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" result="blur"/>
+      <feComponentTransfer in="blur" result="lightened">
+        <feFuncA type="linear" slope="1.2" intercept="0.1"/>
+        <feFuncB type="linear" slope="1.2" intercept="0.1"/>
+      </feComponentTransfer>
+      <feComposite in="lightened" in2="SourceGraphic" operator="over" result="bleeded"/>
+    </filter>
+  </defs>
+  
+  <!-- Base map with watercolor texture -->
+  <rect width="400" height="400" fill="#F5F5F5" filter="url(#brushPattern)"/>
+  
+  <!-- China outline with ink brush effect -->
+  <g filter="url(#inkTexture)">
+    <!-- Main landmass -->
+    <path d="M100 150 Q150 120 200 100 Q250 80 300 100 Q350 120 400 150 L400 200 Q380 250 350 280 Q300 320 250 350 Q200 380 150 350 Q100 320 100 280 Z" 
+          fill="none" stroke="#1A1A1A" stroke-width="3" opacity="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Internal details -->
+    <circle cx="200" cy="200" r="3" fill="#1A1A1A" opacity="0.6"/>
+    <circle cx="300" cy="180" r="2" fill="#1A1A1A" opacity="0.6"/>
+    <circle cx="250" cy="250" r="2.5" fill="#1A1A1A" opacity="0.6"/>
+    
+    <!-- City markers -->
+    <g fill="#D87D4A" opacity="0.9">
+      <circle cx="150" cy="140" r="4"/>
+      <circle cx="250" cy="220" r="4"/>
+      <circle cx="320" cy="160" r="4"/>
+      <circle cx="350" cy="280" r="4"/>
+    </g>
+    
+    <!-- Decorative elements -->
+    <path d="M120 180 Q140 170 160 160" fill="none" stroke="#D87D4A" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+    <path d="M280 200 Q300 190 320 200" fill="none" stroke="#D87D4A" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Watercolor bleed overlay -->
+  <rect width="400" height="400" fill="none" filter="url(#watercolorBleed)" opacity="0.3"/>
+</svg>

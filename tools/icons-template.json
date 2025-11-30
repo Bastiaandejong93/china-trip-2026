@@ -1,0 +1,98 @@
+[
+    {
+        "id": "city_shanghai",
+        "name": "Shanghai skyline",
+        "usage": "Chapter icon and map legend for Shanghai.",
+        "svg_code": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#102A43\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n  <line x1=\"0\" y1=\"22\" x2=\"24\" y2=\"22\" />\n  <circle cx=\"12\" cy=\"16\" r=\"2.5\" />\n  <circle cx=\"12\" cy=\"9.5\" r=\"1.5\" />\n  <line x1=\"12\" y1=\"22\" x2=\"12\" y2=\"3\" />\n  <line x1=\"10.5\" y1=\"22\" x2=\"10.5\" y2=\"18.5\" />\n  <line x1=\"10.5\" y1=\"13.5\" x2=\"10.5\" y2=\"11\" />\n  <line x1=\"13.5\" y1=\"22\" x2=\"13.5\" y2=\"18.5\" />\n  <line x1=\"13.5\" y1=\"13.5\" x2=\"13.5\" y2=\"11\" />\n  <rect x=\"3\" y=\"12\" width=\"3\" height=\"10\" />\n  <rect x=\"7\" y=\"15\" width=\"2\" height=\"7\" />\n  <rect x=\"15\" y=\"13\" width=\"3\" height=\"9\" />\n  <rect x=\"19\" y=\"16\" width=\"2\" height=\"6\" />\n</svg>"
+    },
+    {
+        "id": "city_wuhan",
+        "name": "Wuhan pagoda and river",
+        "usage": "Chapter icon and map legend for Wuhan.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "city_zhangjiajie",
+        "name": "Zhangjiajie sandstone pillars",
+        "usage": "Icon for Zhangjiajie mountain/nature chapters.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "city_chongqing",
+        "name": "Chongqing mountains and bridges",
+        "usage": "Icon for Chongqing's \"vertical city\" sections.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "city_chengdu",
+        "name": "Chengdu panda and bamboo",
+        "usage": "Icon for Chengdu and panda-related content.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "city_dali",
+        "name": "Dali three pagodas",
+        "usage": "Icon for Dali and the three pagodas.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "city_lijiang",
+        "name": "Lijiang old town",
+        "usage": "Icon for Lijiang old town chapters.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "city_beijing",
+        "name": "Beijing Forbidden City gate",
+        "usage": "Icon for Beijing sections and finale.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "transport_highspeed_train",
+        "name": "High-speed train",
+        "usage": "Use for high-speed rail itinerary segments.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "transport_plane",
+        "name": "Airplane",
+        "usage": "Use for domestic flight segments in the itinerary.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "activity_night_market",
+        "name": "Night market & street food",
+        "usage": "Highlights night markets and food streets.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "activity_mountain_hike",
+        "name": "Mountain hike",
+        "usage": "Use for mountain/trekking experiences.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "activity_temple_visit",
+        "name": "Temple visit",
+        "usage": "Use for temple and heritage experiences.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "ui_calendar_day",
+        "name": "Calendar day",
+        "usage": "UI badge for day markers in the timeline.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "ui_hotel_bed",
+        "name": "Hotel / accommodation",
+        "usage": "Use next to hotel / overnight stops.",
+        "svg_code": "REPLACE_WITH_SVG"
+    },
+    {
+        "id": "ui_camera",
+        "name": "Camera / highlight",
+        "usage": "Use for photo hotspots and key moments.",
+        "svg_code": "REPLACE_WITH_SVG"
+    }
+]

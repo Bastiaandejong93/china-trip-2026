@@ -1,0 +1,169 @@
+[
+  {
+    "slide": 1,
+    "title": "China Grand Tour",
+    "subtitle": "A Cinematic Journey Through the Middle Kingdom",
+    "type": "title",
+    "duration": 8
+  },
+  {
+    "slide": 2,
+    "title": "China Overview - Physical Geography",
+    "content": [
+      "East China Plain: Fertile agricultural heartland",
+      "Yangtze River Basin: Asia's longest river",
+      "Karst Mountains: Spectacular limestone formations",
+      "Sichuan Basin: Mountain-surrounded fertile region",
+      "Yunnan-Guizhou Plateau: Biodiversity hotspot",
+      "North China Plain: Historic Yellow River basin"
+    ],
+    "type": "geography",
+    "duration": 12
+  },
+  {
+    "slide": 3,
+    "title": "China Overview - Political Geography",
+    "content": [
+      "23 Provinces",
+      "5 Autonomous Regions",
+      "4 Municipalities (Shanghai, Beijing, Chongqing, Tianjin)",
+      "2 Special Administrative Regions (Hong Kong, Macau)",
+      "Route highlights: 3 municipalities visited"
+    ],
+    "type": "political",
+    "duration": 10
+  },
+  {
+    "slide": 4,
+    "title": "China Overview - Demographics",
+    "content": [
+      "Total Population: 1.4 billion",
+      "Han Majority: 91.6%",
+      "55 Ethnic Minorities",
+      "Population Distribution: East dense, West sparse",
+      "Cultural diversity along our route"
+    ],
+    "type": "demographics",
+    "duration": 10
+  },
+  {
+    "slide": 5,
+    "title": "Shanghai - The Modern Megacity",
+    "highlights": [
+      "The Bund Skyline: Colonial meets futuristic",
+      "Shanghai Acrobatics: World-class performance",
+      "Yu Garden: Traditional Chinese sanctuary"
+    ],
+    "type": "city",
+    "duration": 8
+  },
+  {
+    "slide": 6,
+    "title": "Wuhan - River City Hub",
+    "highlights": [
+      "热干面 (Hot Dry Noodles): City's signature dish",
+      "Yangtze River Bridge: Engineering marvel",
+      "East Lake Cherry Blossoms: Spring beauty"
+    ],
+    "type": "city",
+    "duration": 8
+  },
+  {
+    "slide": 7,
+    "title": "Zhangjiajie - Mystical Karst Landscape",
+    "highlights": [
+      "Avatar Mountains: Otherworldly sandstone pillars",
+      "Glass Bridge: World's longest and highest",
+      "Tujia Culture: Traditional ethnic heritage"
+    ],
+    "type": "city",
+    "duration": 8
+  },
+  {
+    "slide": 8,
+    "title": "Chongqing - Spicy Mountain Metropolis",
+    "highlights": [
+      "Chongqing Hot Pot: Birthplace of Sichuan spice",
+      "Hongya Cave: Traditional stilted architecture",
+      "Yangtze Cableway: Spectacular river crossing"
+    ],
+    "type": "city",
+    "duration": 8
+  },
+  {
+    "slide": 9,
+    "title": "Chengdu - Relaxed Capital of Spice",
+    "highlights": [
+      "Giant Pandas: China's beloved national treasure",
+      "Sichuan Opera (Bian Lian): Incredible face-changing art",
+      "Jinli Ancient Street: Traditional crafts and tea"
+    ],
+    "type": "city",
+    "duration": 8
+  },
+  {
+    "slide": 10,
+    "title": "Dali - Ancient Lakeside Town",
+    "highlights": [
+      "Erhai Lake Cycling: Scenic alpine beauty",
+      "Bai Minority Village: Traditional architecture",
+      "Three Pagodas: 9th-century Buddhist heritage"
+    ],
+    "type": "city",
+    "duration": 8
+  },
+  {
+    "slide": 11,
+    "title": "Lijiang - UNESCO Heritage Town",
+    "highlights": [
+      "Jade Dragon Snow Mountain: Majestic glacier peak",
+      "Old Town: Naxi architectural marvel",
+      "Dongba Culture: Ancient pictographic wisdom"
+    ],
+    "type": "city",
+    "duration": 8
+  },
+  {
+    "slide": 12,
+    "title": "Beijing - Imperial Capital",
+    "highlights": [
+      "Great Wall at Mutianyu: Iconic fortification",
+      "Forbidden City: Imperial palace complex",
+      "Peking Duck: Imperial culinary tradition"
+    ],
+    "type": "city",
+    "duration": 8
+  },
+  {
+    "slide": 13,
+    "title": "Route Summary",
+    "content": [
+      "Total Distance: 4,823km",
+      "Duration: 2 weeks",
+      "Transport: High-speed trains, flights, scenic drives",
+      "Best Season: April-May or September-October",
+      "8 Cities, 3 Municipalities, 4 Provinces"
+    ],
+    "type": "summary",
+    "duration": 10
+  },
+  {
+    "slide": 14,
+    "title": "Cultural Highlights",
+    "content": [
+      "Food: 热干面, Hot Pot, Peking Duck",
+      "Nature: Pandas, Avatar Mountains, Jade Dragon",
+      "Culture: Sichuan Opera, Ethnic Traditions",
+      "Architecture: Great Wall, Three Pagodas, The Bund"
+    ],
+    "type": "culture",
+    "duration": 8
+  },
+  {
+    "slide": 15,
+    "title": "Thank You",
+    "subtitle": "China Explained — A Journey of Discovery",
+    "type": "closing",
+    "duration": 6
+  }
+]

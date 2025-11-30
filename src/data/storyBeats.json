@@ -1,0 +1,231 @@
+[
+  {
+    "section": "hero",
+    "camera": "zoom_to_shanghai",
+    "trigger": "scroll_start",
+    "animation": {
+      "type": "zoom",
+      "from": { "zoom": 3, "center": [104.2, 35.9] },
+      "to": { "zoom": 8, "center": [121.5, 31.2] },
+      "duration": 3000
+    },
+    "content": {
+      "title": "China Explained",
+      "subtitle": "Our Grand Tour (May 2026)",
+      "showRoute": true
+    }
+  },
+  {
+    "section": "physical",
+    "camera": "pan_east_china_plain",
+    "trigger": "scroll_progress_20",
+    "animation": {
+      "type": "pan",
+      "from": { "zoom": 6, "center": [121.5, 31.2] },
+      "to": { "zoom": 7, "center": [118.5, 32.5] },
+      "duration": 4000
+    },
+    "content": {
+      "title": "Physical Geography",
+      "highlight": "East China Plain",
+      "showTerrain": true
+    }
+  },
+  {
+    "section": "physical_yangtze",
+    "camera": "follow_yangtze_upstream",
+    "trigger": "scroll_progress_30",
+    "animation": {
+      "type": "flythrough",
+      "path": [
+        [121.5, 31.2],
+        [114.3, 30.6],
+        [110.5, 29.1],
+        [106.6, 29.6],
+        [104.1, 30.7]
+      ],
+      "zoom": 8,
+      "duration": 6000
+    },
+    "content": {
+      "title": "Yangtze River Basin",
+      "subtitle": "Asia's Longest River",
+      "showFlow": true
+    }
+  },
+  {
+    "section": "physical_karst",
+    "camera": "focus_zhangjiajie",
+    "trigger": "scroll_progress_40",
+    "animation": {
+      "type": "zoom",
+      "from": { "zoom": 8, "center": [104.1, 30.7] },
+      "to": { "zoom": 10, "center": [110.5, 29.1] },
+      "duration": 3000
+    },
+    "content": {
+      "title": "Karst Mountains",
+      "subtitle": "Zhangjiajie's Avatar Landscape",
+      "show3D": true
+    }
+  },
+  {
+    "section": "political",
+    "camera": "show_administrative",
+    "trigger": "scroll_progress_50",
+    "animation": {
+      "type": "zoom_out",
+      "from": { "zoom": 10, "center": [110.5, 29.1] },
+      "to": { "zoom": 4, "center": [104.2, 35.9] },
+      "duration": 3000
+    },
+    "content": {
+      "title": "Political Geography",
+      "subtitle": "23 Provinces, 5 Autonomous Regions, 4 Municipalities",
+      "showProvinces": true,
+      "highlightMunicipalities": ["Shanghai", "Beijing", "Chongqing"]
+    }
+  },
+  {
+    "section": "demographic",
+    "camera": "population_heatmap",
+    "trigger": "scroll_progress_60",
+    "animation": {
+      "type": "static",
+      "zoom": 4,
+      "center": [104.2, 35.9],
+      "duration": 0
+    },
+    "content": {
+      "title": "Demographics",
+      "subtitle": "1.4 Billion People, Diverse Cultures",
+      "showHeatmap": true,
+      "showEthnicRegions": true
+    }
+  },
+  {
+    "section": "route",
+    "camera": "follow_train_shanghai_wuhan",
+    "trigger": "scroll_progress_70",
+    "animation": {
+      "type": "route_follow",
+      "segments": [
+        {
+          "from": [121.5, 31.2],
+          "to": [114.3, 30.6],
+          "transport": "train",
+          "duration": 2000
+        },
+        {
+          "from": [114.3, 30.6],
+          "to": [110.5, 29.1],
+          "transport": "train",
+          "duration": 1500
+        },
+        {
+          "from": [110.5, 29.1],
+          "to": [106.6, 29.6],
+          "transport": "train",
+          "duration": 1500
+        },
+        {
+          "from": [106.6, 29.6],
+          "to": [104.1, 30.7],
+          "transport": "train",
+          "duration": 1000
+        },
+        {
+          "from": [104.1, 30.7],
+          "to": [100.2, 25.6],
+          "transport": "flight",
+          "duration": 2000
+        },
+        {
+          "from": [100.2, 25.6],
+          "to": [100.2, 26.9],
+          "transport": "car",
+          "duration": 1500
+        },
+        {
+          "from": [100.2, 26.9],
+          "to": [116.4, 39.9],
+          "transport": "flight",
+          "duration": 3000
+        }
+      ],
+      "showCities": true,
+      "showRouteLines": true
+    },
+    "content": {
+      "title": "Our Grand Tour Route",
+      "subtitle": "8 Cities, 4,823km, 2 Weeks",
+      "showTimeline": true
+    }
+  },
+  {
+    "section": "city_highlights",
+    "camera": "city_carousel",
+    "trigger": "scroll_progress_80",
+    "animation": {
+      "type": "carousel",
+      "cities": [
+        { "center": [121.5, 31.2], "zoom": 10, "name": "Shanghai" },
+        { "center": [114.3, 30.6], "zoom": 10, "name": "Wuhan" },
+        { "center": [110.5, 29.1], "zoom": 11, "name": "Zhangjiajie" },
+        { "center": [106.6, 29.6], "zoom": 10, "name": "Chongqing" },
+        { "center": [104.1, 30.7], "zoom": 10, "name": "Chengdu" },
+        { "center": [100.2, 25.6], "zoom": 10, "name": "Dali" },
+        { "center": [100.2, 26.9], "zoom": 10, "name": "Lijiang" },
+        { "center": [116.4, 39.9], "zoom": 9, "name": "Beijing" }
+      ],
+      "duration": 3000
+    },
+    "content": {
+      "title": "City Highlights",
+      "subtitle": "Cultural Treasures Along Our Journey",
+      "showCityCards": true
+    }
+  },
+  {
+    "section": "cultural_deep_dive",
+    "camera": "cultural_overview",
+    "trigger": "scroll_progress_90",
+    "animation": {
+      "type": "static",
+      "zoom": 5,
+      "center": [104.2, 35.9],
+      "duration": 0
+    },
+    "content": {
+      "title": "Cultural Highlights",
+      "subtitle": "Food, Traditions, and Natural Wonders",
+      "showCulturalMarkers": true,
+      "focusExperiences": [
+        "热干面 in Wuhan",
+        "Avatar Mountains in Zhangjiajie",
+        "Chongqing Hotpot",
+        "Pandas in Chengdu",
+        "Erhai Lake in Dali",
+        "Jade Dragon Snow Mountain",
+        "Great Wall at Mutianyu"
+      ]
+    }
+  },
+  {
+    "section": "outro",
+    "camera": "zoom_out_final",
+    "trigger": "scroll_end",
+    "animation": {
+      "type": "zoom_out",
+      "from": { "zoom": 5, "center": [104.2, 35.9] },
+      "to": { "zoom": 3, "center": [104.2, 35.9] },
+      "duration": 4000
+    },
+    "content": {
+      "title": "China Explained",
+      "subtitle": "A Journey of Discovery Through the Middle Kingdom",
+      "showCompleteRoute": true,
+      "showCredits": true
+    }
+  }
+]

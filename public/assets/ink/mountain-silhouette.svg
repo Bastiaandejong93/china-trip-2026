@@ -1,0 +1,61 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Watercolor paper texture -->
+    <filter id="watercolorTexture">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="4" result="turbulence"/>
+      <feColorMatrix in="turbulence" type="saturate" values="0.2" result="colored"/>
+      <feGaussianBlur in="colored" stdDeviation="0.8" result="blurred"/>
+      <feBlend in2="SourceGraphic" in="blurred" mode="multiply" result="textured"/>
+    </filter>
+    
+    <!-- Ink brush effect -->
+    <filter id="inkBrush">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.5" result="blur"/>
+      <feComponentTransfer in="blur" result="darken">
+        <feFuncA type="discrete" tableValues="0 0.5 1 1"/>
+        <feFuncB type="discrete" tableValues="0 0.5 1 1"/>
+      </feComponentTransfer>
+      <feComposite in="darken" in2="SourceGraphic" operator="over" result="inked"/>
+    </filter>
+    
+    <!-- Mountain silhouette gradient -->
+    <linearGradient id="mountainGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style={{stopColor: '#B8C5C6', stopOpacity: 0.3}}/>
+      <stop offset="50%" style={{stopColor: '#E3D5CA', stopOpacity: 0.5}}/>
+      <stop offset="100%" style={{stopColor: '#F5F5F5', stopOpacity: 0.8}}/>
+    </linearGradient>
+    
+    <!-- Mist gradient -->
+    <radialGradient id="mistGradient">
+      <stop offset="0%" style={{stopColor: '#F5F5F5', stopOpacity: 0}}/>
+      <stop offset="70%" style={{stopColor: '#F5F5F5', stopOpacity: 0.4}}/>
+      <stop offset="100%" style={{stopColor: '#B8C5C6', stopOpacity: 0.6}}/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background with watercolor texture -->
+  <rect width="800" height="600" fill="#F5F5F5" filter="url(#watercolorTexture)"/>
+  
+  <!-- Mountain layers with ink brush effect -->
+  <g filter="url(#inkBrush)">
+    <!-- Background mountains -->
+    <path d="M0 400 Q200 300 400 200 T400 100 L600 150 Q700 100 800 200 L800 600 Z" 
+          fill="url(#mountainGradient)" opacity="0.6"/>
+    
+    <!-- Foreground mountains -->
+    <path d="M100 500 Q250 400 400 300 T600 250 L700 300 Q750 280 800 350 L800 600 Z" 
+          fill="url(#mountainGradient)" opacity="0.8"/>
+    
+    <!-- Mountain details -->
+    <path d="M200 350 L220 320 L240 340 Z" fill="#B8C5C6" opacity="0.4"/>
+    <path d="M450 280 L470 260 L490 275 Z" fill="#B8C5C6" opacity="0.4"/>
+    <path d="M650 320 L670 300 L690 310 Z" fill="#B8C5C6" opacity="0.4"/>
+  </g>
+  
+  <!-- Mist layers -->
+  <g opacity="0.7">
+    <ellipse cx="200" cy="450" rx="180" ry="60" fill="url(#mistGradient)"/>
+    <ellipse cx="600" cy="380" rx="150" ry="40" fill="url(#mistGradient)"/>
+    <ellipse cx="400" cy="500" rx="200" ry="80" fill="url(#mistGradient)" opacity="0.5"/>
+  </g>
+</svg>

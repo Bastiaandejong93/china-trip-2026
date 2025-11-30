@@ -1,0 +1,174 @@
+[33m[nodemon] 3.1.11[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): src/**/*[39m
+[33m[nodemon] watching extensions: ts,tsx,js,jsx[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1765ms
+ ○ Compiling /bubbles ...
+ ✓ Compiled /bubbles in 2.9s (1526 modules)
+ GET /bubbles 200 in 3455ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 547ms (1531 modules)
+ GET /assets/broll_dali_erhai_lake.jpg 404 in 792ms
+ GET /bubbles 200 in 371ms
+ GET /bubbles 200 in 135ms
+ ✓ Compiled / in 286ms (1524 modules)
+ GET / 200 in 411ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1378ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1266ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1264ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1780ms (1347 modules)
+ GET / 200 in 2383ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 578ms (1352 modules)
+ GET / 200 in 264ms
+ GET /assets/broll_dali_erhai_lake.jpg 404 in 36ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1417ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1766ms (1347 modules)
+ GET / 200 in 2229ms
+ ✓ Compiled /bubbles in 491ms (1531 modules)
+ GET /bubbles 200 in 777ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1478ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1222ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1247ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1271ms
+ ○ Compiling / ...
+ ✓ Compiled / in 2.1s (1443 modules)
+ GET / 200 in 2540ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1240ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1275ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1205ms

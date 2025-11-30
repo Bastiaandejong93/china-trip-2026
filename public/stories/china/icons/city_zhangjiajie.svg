@@ -1,0 +1,17 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#102A43" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 8 24 L 7 4" />
+    <path d="M 7 4 C 7.5 3 9.5 3 10 4" />
+    <path d="M 10 4 L 9 24" />
+    <path d="M 14 24 L 13 7" />
+    <path d="M 13 7 C 13.5 6 15.5 6 16 7" />
+    <path d="M 16 7 L 15 24" />
+    <path d="M 4 24 L 3 10" />
+    <path d="M 3 10 C 3.5 9 5.5 9 6 10" />
+    <path d="M 6 10 L 5 24" />
+    <path d="M 18 24 L 17 12" />
+    <path d="M 17 12 C 17.5 11 19.5 11 20 12" />
+    <path d="M 20 12 L 19 24" />
+    <path d="M 2 20 Q 6 19 12 20 Q 18 21 22 20" />
+    <path d="M 3 22 Q 7 21 13 22 Q 19 23 21 22" />
+    <path d="M 5 18 Q 9 17 15 18 Q 19 19 20 18" />
+</svg>
