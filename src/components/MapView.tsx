@@ -171,7 +171,7 @@ export default function MapView({
       ctx.shadowBlur = 0
 
       // City name
-      ctx.font = `${theme.fontSizes.body} ${theme.fontDisplay.serif}`
+      ctx.font = `${theme.fontSizes.body.base} ${theme.fontDisplay.serif}`
       ctx.fillStyle = theme.colors.inkBlack
       ctx.globalAlpha = 0.9
       ctx.textAlign = 'center'

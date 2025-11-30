@@ -295,3 +295,14 @@
 
  ✓ Starting...
  ✓ Ready in 1362ms
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `next dev -p 3000`[39m
+   ▲ Next.js 15.5.6
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.178.90:3000
+   - Environments: .env.local
+   - Experiments (use with caution):
+     · optimizePackageImports
+
+ ✓ Starting...
+ ✓ Ready in 1999ms
