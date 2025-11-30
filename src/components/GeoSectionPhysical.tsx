@@ -36,7 +36,7 @@ export default function GeoSectionPhysical() {
           shadow-xl
         "
       >
-        <ReactMarkdown
+        <div
           className="
             prose prose-invert max-w-none
             prose-h2:text-amber-300
@@ -46,8 +46,8 @@ export default function GeoSectionPhysical() {
             prose-li:text-slate-100
           "
         >
-          {content}
-        </ReactMarkdown>
+          <ReactMarkdown>{content}</ReactMarkdown>
+        </div>
       </div>
     </section>
   )

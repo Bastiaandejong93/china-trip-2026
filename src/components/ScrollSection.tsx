@@ -17,7 +17,7 @@ export default function ScrollSection({
   children,
   className = "",
   background = 'solid',
-  bgColor = theme.colors.bg,
+  bgColor = theme.colors.background,
   id,
   fullHeight = true
 }: ScrollSectionProps) {

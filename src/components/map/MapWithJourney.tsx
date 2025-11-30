@@ -137,7 +137,6 @@ export function MapWithJourney({ physicalContent, demographicsContent, cityConte
                 pitch: city.camera.pitch,
                 bearing: city.camera.bearing,
                 duration: 2200,
-                offset: [offsetX, 0] as any, // Shift view to accommodate panel
             }
         );
     }, []);

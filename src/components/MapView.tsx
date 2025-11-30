@@ -326,8 +326,8 @@ export default function MapView({
             }).setHTML(`
               <div style="padding: 12px; font-family: ${theme.fontDisplay.serif}; background: ${theme.colors.warmBeige}; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
                 {/* @ts-ignore */}
-                <h3 style="margin: 0; font-weight: bold; color: ${theme.colors.inkBlack}; font-size: ${theme.fontSizes.h3};">${marker.title}</h3>
-                ${marker.description ? `<p style="margin: 8px 0 0 0; font-size: ${theme.fontSizes.body}; color: ${theme.colors.textSecondary}; line-height: 1.5;">${marker.description}</p>` : ''}
+                <h3 style="margin: 0; font-weight: bold; color: ${theme.colors.inkBlack}; font-size: ${theme.fontSizes.heading.h3};">${marker.title}</h3>
+                ${marker.description ? `<p style="margin: 8px 0 0 0; font-size: ${theme.fontSizes.body.small}; color: ${theme.colors.textSecondary}; line-height: 1.5;">${marker.description}</p>` : ''}
                 <div style="margin-top: 8px; padding-top: 8px; border-top: 1px solid ${theme.colors.border};">
                   <button onclick="window.selectCity && window.selectCity('${marker.title}')" style="background: ${theme.colors.terracotta}; color: ${theme.colors.ricePaperWhite}; border: none; padding: 6px 12px; border-radius: 4px; cursor: pointer; font-family: ${theme.fontDisplay.serif};">
                     View Details
@@ -402,6 +402,7 @@ export default function MapView({
         vibe: '',
         culturalVibe: '',
         transportHub: false,
+        significance: '',
         iconHighlights: [],
         experiences: [],
         landmarks: [],

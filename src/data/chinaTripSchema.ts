@@ -622,7 +622,7 @@ export const searchLocations = (schema: ChinaTripSchema, options: SearchOptions)
     results = results.filter(location =>
       location.name.toLowerCase().includes(query) ||
       location.chineseName.toLowerCase().includes(query) ||
-      location.description.toLowerCase().includes(query) ||
+      (location.description || '').toLowerCase().includes(query) ||
       location.vibe.toLowerCase().includes(query)
     );
   }
