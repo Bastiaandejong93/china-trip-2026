@@ -2,7 +2,16 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "standalone",
-  /* config options here */
+  experimental: {
+    optimizePackageImports: ['mapbox-gl', 'framer-motion']
+  },
+  images: {
+    domains: ['localhost'],
+    unoptimized: true
+  },
+  env: {
+    NEXT_PUBLIC_MAPBOX_TOKEN: process.env.NEXT_PUBLIC_MAPBOX_TOKEN
+  },
   typescript: {
     ignoreBuildErrors: true,
   },
